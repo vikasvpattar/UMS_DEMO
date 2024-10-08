@@ -1,0 +1,19 @@
+/* Add this to your CSS file */
+.caret-up {
+    content: '';
+    display: inline-block;
+    border-width: 0.4em 0.4em 0;
+    border-color: transparent transparent #000;
+    border-style: solid;
+    margin-left: 0.2em;
+  }
+  
+  .caret-down {
+    content: '';
+    display: inline-block;
+    border-width: 0 0.4em 0.4em;
+    border-color: #000 transparent transparent;
+    border-style: solid;
+    margin-left: 0.2em;
+  }
+  

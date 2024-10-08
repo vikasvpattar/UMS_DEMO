@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+  --navBarActiveColor:#ff5e00;
+  --basicBlue:#364277;
+  --basicOrange:#FBAC7E;
+}
+
+.App{
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.page-content{
+  padding: calc(10px + 24px) calc(24px / 2) 60px calc(24px / 2);
+}
+
+/* Navbar's Topbar design properties */
+.topnav{
+  margin-top: 0px !important;
+  position: static;
+}
+
+.cursor-disable{
+  cursor: not-allowed !important;
+}
+
+.cursor-pointer{
+  cursor: pointer !important;
+}
+
+
+.cursor-normal{
+  cursor:default !important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 ,p ,div{
+  font-family: 'Poppins',sans-serif !important;
+}
+
+
+.navbar-brand-box{
+  width: 0px !important;
+}
+
+/* Custom Scrollbar CSS */
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--basicBlue);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(129, 127, 127)277;
+}
+
+
+.fc-daygrid-event{
+  color: white !important;
+}
+
+.fc-daygrid-event:hover{
+  color: black !important;
+}
+
+.fc-daygrid-event-dot{
+  display: none;
+}
+
+
+.fc-event-time{
+  display: none;
+}
+
+.fc-event-title{
+  padding: 5px;
+}
+
+
+/* .topnav .dropdown .dropdown-menu {
+    right: 0 !important;
+    left: auto !important;
+} */
+
+.ant-drawer-open{
+  z-index: 9999;
+}
+.ant-drawer-content-wrapper{
+  z-index: 9999;
+}

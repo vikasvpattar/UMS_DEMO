@@ -1,0 +1,22 @@
+.Navbar{
+    // Top Nav two properties are in app.css
+    .cursor-pointer{
+        cursor: pointer;
+    }
+    .navbarActiveClass{
+        color: var(--navBarActiveColor) !important;
+    }
+}
+
+
+.navCustomDropdown{
+    .navbarActiveClass{
+        color: var(--navBarActiveColor);
+    }
+
+}
+
+.nav-collapse{
+
+overflow-y: auto;
+}

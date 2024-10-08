@@ -1,0 +1,40 @@
+.Leave-Report{
+    .report-div{
+        cursor: pointer;
+        .report-title{
+            font-size: 20px;
+            color: var(--basicBlue);
+            font-weight: bold;
+        }
+        .role-parts{
+            display: flex;
+
+            justify-content: space-between;
+            .role-part-left{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items:flex-start ;
+                width: auto;
+                display: flex;
+
+                button{
+                    max-width: 150px;
+                    margin: 10px 0px;
+                }
+            }
+            .role-part-right{
+                .report-items{
+                    margin-bottom: 10px;
+                }
+                .report-item-title{
+                    color: gray;
+                    font-size: 16px;
+                }
+                .report-item-value{
+                }
+                
+            }
+        }
+    }
+}

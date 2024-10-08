@@ -1,0 +1,26 @@
+.Staff{
+    .rowData{
+
+        .col-12{
+            font-size: 18px;
+            color: var(--basicBlue);
+        }
+        .jobPos{
+            color: black;
+        }
+        .col-md-6{
+            margin: 8px 0px;
+        }
+    }
+
+    .cursor-pointer{
+        cursor: pointer;
+    }
+
+    .input-btn{
+        position: absolute;
+        cursor: pointer;
+        top: 11px;
+        right: 22px;
+    }
+}

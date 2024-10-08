@@ -1,0 +1,49 @@
+.Topbar {
+    #page-topbar {
+        position: static;
+    }
+
+    .cursor-pointer {
+        cursor: pointer !important;
+    }
+
+    .dropdown-menu {
+        z-index: 9999;
+    }
+
+    .action-list {
+        position: absolute;
+        right: 0;
+        top: 68px;
+        padding: 10px;
+        border-radius: 10px;
+        background: white;
+        z-index: 9999;
+        box-shadow: 4px 4px 10px 2px;
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+
+            li{
+                display: flex;
+            }
+        }
+    }
+
+    @media screen and (max-width:988px) {
+        .w-sm-100 {
+            width: 100%;
+        }
+    }
+
+    .collegeOptSelect {
+        text-align: right;
+
+        option {
+            text-align: left;
+        }
+    }
+}

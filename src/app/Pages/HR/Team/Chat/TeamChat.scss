@@ -1,0 +1,25 @@
+.TeamChat{
+    .chat-container{
+        padding: 15px;
+        overflow-y: auto;
+        max-height: 50vh;
+
+    }
+    .chat-right{
+        justify-content: end;
+        .bg-primary{
+            background-color: var(--basicBlue);
+        }
+    }
+    
+    .chat-left{
+        justify-content: start;
+        .bg-primary{
+            color: var(--basicBlue);
+        }
+
+    }
+    .team-chat-date{
+        font-size: 0.6rem;
+    }
+}
